@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { ArrowRight, Download, FileText, Sparkles, MapPin, ExternalLink, Mail, Phone, Calendar } from "lucide-react";
 import ProfileImage from "./ProfileImage";
 //import regeneratedHeroImage from "/public/profile.jpg";
-import regeneratedHeroImage from "@/public/profile.jpg";
+
 
 interface HeroProps {
   darkMode: boolean;
@@ -82,7 +82,7 @@ export default function Hero({ darkMode }: HeroProps) {
           <ProfileImage
   darkMode={darkMode}
   sizeClasses="w-36 h-36"
-  customSrc={regeneratedHeroImage}
+  customSrc="/profile.jpg"
 />
           
           {/* Active Status Indicator */}
