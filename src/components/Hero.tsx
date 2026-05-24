@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ArrowRight, Download, FileText, Sparkles, MapPin, ExternalLink, Mail, Phone, Calendar } from "lucide-react";
 import ProfileImage from "./ProfileImage";
-import regeneratedHeroImage from "../assets/images/regenerated_image_1779601885581.jpg";
+import regeneratedHeroImage from "../assets/images/profile.jpg";
 
 interface HeroProps {
   darkMode: boolean;
