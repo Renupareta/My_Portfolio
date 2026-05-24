@@ -55,7 +55,7 @@ export default function Projects({ darkMode }: ProjectsProps) {
     {
       id: 2,
       title: "Event Management System",
-      tech: ["Python" , "tkinter", "MySQL"],
+      tech: ["Python"],
       category: "python",
       description: "A Python management script to organize event registrations, schedules, and active attendee lists.",
       demoUrl: "",
@@ -71,7 +71,7 @@ export default function Projects({ darkMode }: ProjectsProps) {
     {
       id: 3,
       title: "Police Complaint Management System",
-      tech: ["Python","tkinter", "MySQL"],
+      tech: ["Python"],
       category: "python",
       description: "A Python precinct management desk for listing citizen complaints, FIR reports, and investigation logs.",
       demoUrl: "",
@@ -87,7 +87,7 @@ export default function Projects({ darkMode }: ProjectsProps) {
     {
       id: 4,
       title: "Cloth Management System",
-      tech: ["Python","tkinter", "MySQL"],
+      tech: ["Python"],
       category: "python",
       description: "An administrative Python stock control tracker to manage garments, price listings, and supply trends.",
       demoUrl: "",
@@ -103,7 +103,7 @@ export default function Projects({ darkMode }: ProjectsProps) {
     {
       id: 5,
       title: "Hotel Management System",
-      tech: ["Python","tkinter", "MySQL"],
+      tech: ["Python"],
       category: "python",
       description: "A neat Python scheduler designed for booking rooms, vacant/occupied status indicators, and checkout evaluations.",
       demoUrl: "",
@@ -119,7 +119,7 @@ export default function Projects({ darkMode }: ProjectsProps) {
     {
       id: 6,
       title: "Jewellery Shop Management System",
-      tech: ["Python","tkinter", "MySQL"],
+      tech: ["Python"],
       category: "python",
       description: "A Python calculation utility designed gold weight evaluations, making charges, and relational invoice ledgers.",
       demoUrl: "",
@@ -135,7 +135,7 @@ export default function Projects({ darkMode }: ProjectsProps) {
     {
       id: 7,
       title: "Employee Management System",
-      tech: ["Java" , "Mysql"],
+      tech: ["Java"],
       category: "java",
       description: "A Java server-side application built cataloging corporate payroll numbers, employee archives, and departments.",
       demoUrl: "",
@@ -151,7 +151,7 @@ export default function Projects({ darkMode }: ProjectsProps) {
     {
       id: 8,
       title: "Student Management System",
-      tech: ["Java" , "Mysql"],
+      tech: ["Java"],
       category: "java",
       description: "A Java student database workspace utilizing transcript files and JDBC queries for performance mapping.",
       demoUrl: "",
@@ -167,7 +167,7 @@ export default function Projects({ darkMode }: ProjectsProps) {
     {
       id: 9,
       title: "Zomato Website Clone",
-      tech: ["HTML", "CSS", "JavaScript" , "Bootstrap"],
+      tech: ["HTML", "CSS", "JavaScript"],
       category: "frontend",
       description: "A responsive Zomato homepage layout featuring meal category filters and an interactive cart calculation workspace.",
       demoUrl: "https://github.com/Renupareta",
@@ -183,7 +183,7 @@ export default function Projects({ darkMode }: ProjectsProps) {
     {
       id: 10,
       title: "Scanner App",
-      tech: ["Html","CSS", "JavaScript" , "Bootstrap"],
+      tech: ["JavaScript"],
       category: "javascript",
       description: "A sleek browser scanner application simulating real-time file filters, image contrasts, and crop bounds.",
       demoUrl: "",

@@ -2,8 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ArrowRight, Download, FileText, Sparkles, MapPin, ExternalLink, Mail, Phone, Calendar } from "lucide-react";
 import ProfileImage from "./ProfileImage";
-//import regeneratedHeroImage from "/public/profile.jpg";
-
+import regeneratedHeroImage from "../assets/images/regenerated_image_1779601885581.jpg";
 
 interface HeroProps {
   darkMode: boolean;
@@ -79,11 +78,7 @@ export default function Hero({ darkMode }: HeroProps) {
           transition={{ duration: 0.6, type: "spring", stiffness: 100 }}
           className="relative inline-block mb-6 group/profile"
         >
-          <ProfileImage
-  darkMode={darkMode}
-  sizeClasses="w-36 h-36"
-  customSrc="/profile.jpg"
-/>
+          <ProfileImage darkMode={darkMode} sizeClasses="w-36 h-36" customSrc={regeneratedHeroImage} />
           
           {/* Active Status Indicator */}
           <span className="absolute bottom-1 right-2.5 w-5 h-5 bg-green-500 border-2 border-white dark:border-slate-900 rounded-full flex items-center justify-center z-10">

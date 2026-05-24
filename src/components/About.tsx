@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "motion/react";
 import { User, Award, Code2, MapPin, GraduationCap, Briefcase, ChevronRight, Sparkles } from "lucide-react";
 import ProfileImage from "./ProfileImage";
-import regeneratedAboutImage from "../assets/images/profile.jpg";
+import regeneratedAboutImage from "../assets/images/regenerated_image_1779601887655.jpg";
 
 interface AboutProps {
   darkMode: boolean;
