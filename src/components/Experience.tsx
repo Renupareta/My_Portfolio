@@ -60,7 +60,7 @@ export default function Experience({ darkMode }: ExperienceProps) {
             transition={{ delay: 0.1 }}
             className="font-display font-bold text-3xl sm:text-4xl text-gradient pr-1"
           >
-            Dual Focus: Industry & Academic
+            Dual Focus: Industry & Academia
           </motion.h2>
           <div className="w-16 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto mt-4 rounded-full" />
         </div>
