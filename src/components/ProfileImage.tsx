@@ -35,7 +35,6 @@ export default function ProfileImage({
     ...(customSrc ? [getSrcString(customSrc)] : []),
     getSrcString(userUploadedPhoto),
     `${baseUrl}profile.jpg`,
-    `${baseUrl}profile.png`,
     `${baseUrl}profile.jpeg`
   ].filter(Boolean);
 
