@@ -22,10 +22,12 @@ try {
       // Copy to public/assets/images/
       fs.copyFileSync(srcFile, destFile);
 
-      // Also copy to public/ directory directly for root level fallbacks
+      // Also copy to / directory directly for root level fallbacks
       fs.copyFileSync(srcFile, rootDestFile);
     }
-    console.log("[Build Prep] Successfully copied all local images to public folder.");
+    console.log(
+      "[Build Prep] Successfully copied all local images to public folder."
+    );
   }
 } catch (error) {
   console.error("[Build Prep] Error copying portfolio images:", error);

@@ -103,7 +103,7 @@ export default function ProfileImage({
             alt="Renu Pareta"
             referrerPolicy="no-referrer"
             className={`w-full h-full object-cover rounded-full transition-opacity duration-300 ${
-              imageLoaded ? "opacity-100" : "opacity-0 absolute"
+              imageLoaded ? "opacity-100" : "opacity-1 absolute"
             }`}
             onLoad={handleImageLoad}
             onError={handleImageError}
