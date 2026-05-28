@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "motion/react";
-import userUploadedPhoto from "../assets/images/profile_photo_1779464823301.png";
+import userUploadedPhoto from "../assets/images/regenerated_image_1779601885581.jpg";
 
 interface ProfileImageProps {
   darkMode: boolean;

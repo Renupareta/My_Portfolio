@@ -93,15 +93,17 @@ export default function Hero({ darkMode }: HeroProps) {
           className="relative inline-block mb-6 group/profile"
         >
           <ProfileImage
-            darkMode={darkMode}
-            sizeClasses="w-36 h-36"
-            customSrc={regeneratedHeroImage}
-          />
+  darkMode={darkMode}
+  sizeClasses="w-36 h-36"
+  customSrc="/profile.jpg"
+/>
 
           <span className="absolute bottom-1 right-2.5 w-5 h-5 bg-green-500 border-2 border-white dark:border-slate-900 rounded-full flex items-center justify-center z-10">
             <span className="w-2 h-2 bg-white rounded-full animate-ping" />
           </span>
         </motion.div>
+
+        
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
