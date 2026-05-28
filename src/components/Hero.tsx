@@ -74,7 +74,7 @@ export default function Hero({ darkMode }: HeroProps) {
         {/* Profile Avatar Image */}
         <motion.div
           initial={{ scale: 0.5, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
+          animate={{ scale: 1, opacity: 100 }}
           transition={{ duration: 0.6, type: "spring", stiffness: 100 }}
           className="relative inline-block mb-6 group/profile"
         >
@@ -89,7 +89,7 @@ export default function Hero({ darkMode }: HeroProps) {
         {/* Sparkle Tag */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
+          animate={{ opacity: 100, y: 0 }}
           transition={{ duration: 0.6 }}
           className={`inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wide border uppercase mb-6 ${
             darkMode
